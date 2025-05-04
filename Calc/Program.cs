@@ -1,4 +1,6 @@
-﻿namespace Calc
+﻿using System.Threading.Channels;
+
+namespace Calc
 {
     internal class Program
     {
@@ -52,10 +54,10 @@
                 Console.WriteLine(result);
             }
             else  Console.WriteLine("некоректные данные");
+          
 
 
-
-
+             
 
         }
     }
