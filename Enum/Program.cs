@@ -7,17 +7,18 @@ using System.Threading.Tasks;
 
 namespace Enum
 {
+    enum DayOfWeek
+    {
+        Monday = 1,
+        Tuesday,
+        Wednesday,
+        Friday,
+        Saturday,
+        Sunday
+
+    }
     internal class Program
-    {   enum DayOfWeek 
-        {
-            Monday=1,
-            Tuesday,
-            Wednesday,
-            Friday, 
-            Saturday,
-            Sunday
-              
-        }
+    {  
         static void Main(string[] args)
         {
             var value = 55;
